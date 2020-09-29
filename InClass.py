@@ -4,4 +4,4 @@ WDI = WDI[['Mortality rate, infant (per 1,000 live births)','GDP per capita (con
 WDI.head()
 from plotnine import *
 (ggplot(WDI, aes(x='Mortality rate, infant (per 1,000 live births)',y='GDP per capita (constant 2010 US$)')) + geom_point())
-
+#Chose these columns to examine the relationship between infant mortality rate and GDP per cap
